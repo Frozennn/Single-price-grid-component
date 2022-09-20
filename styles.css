@@ -51,7 +51,6 @@ body {
 .article-2 {
   color: #fff;
   background-color: rgb(42, 178, 175);
-  border-bottom-left-radius: 15px;
 }
 
 .article-2-sub-heading {
@@ -93,6 +92,7 @@ body {
 
 .article-3 {
   background-color: rgba(74, 190, 189, 255);
+  border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 
@@ -131,5 +131,15 @@ body {
 
   .article-1 {
     grid-column: span 2;
+  }
+
+  .article-2 {
+    border-bottom-left-radius: 15px;
+  }
+
+  .article-3 {
+    background-color: rgba(74, 190, 189, 255);
+
+    border-bottom-left-radius: 0px;
   }
 }
